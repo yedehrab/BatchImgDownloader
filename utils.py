@@ -10,6 +10,10 @@ from config import *
 from jsmin import jsmin
 
 
+def format_url(page_index):
+    return PAGE_URL.replace("page=1", "page={}".format(page_index))
+
+
 def min_js(file_path):
     with open(file_path) as js_file:
         return jsmin(js_file.read(), quote_chars="'\"`")

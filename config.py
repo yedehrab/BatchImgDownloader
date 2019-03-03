@@ -7,8 +7,7 @@ JS_PATH = "./javascripts/gettyImages.js"
 
 # Site yapılandırmaları
 PAGE = 100
-PAGE_URL = "https://www.gettyimages.com/photos/traffic-light?alloweduse=availableforalluses&family=creative" \
-                "&license=rf&page={}&phrase=traffic%20light&sort=best "
+PAGE_URL = "https://www.gettyimages.com/photos/traffic-light?alloweduse=availableforalluses&family=creative&license=rf&page=1&phrase=traffic%20light&sort=best "
 
 # Yükleme Ayarları
 DOWNLOAD = False

@@ -1,13 +1,12 @@
 from utils import *
-from config import *
 
 driver = initiate_driver()
 urls = []
 
 try:
-    for i in range(PAGE):
-        URL = PAGE_URL.format(i + 1)
-        driver.get(URL)
+    for page_index in range(PAGE):
+        url = format_url(page_index)
+        driver.get(url)
 
         # İstenen öğe yüklenene kadar bekleme
         hold_driver(driver)
