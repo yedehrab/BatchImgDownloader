@@ -42,5 +42,3 @@ def download_urls(urls):
     os.mkdir(DOWNLOAD_DIR)
     for url in urls:
         wget.download(url, out=DOWNLOAD_DIR)
-
-

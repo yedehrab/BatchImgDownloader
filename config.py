@@ -20,7 +20,3 @@ OUTPUT_FILE = "output.txt"
 
 # Ek Ayarlar
 DEBUG = True
-
-
-
-
